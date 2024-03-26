@@ -1,0 +1,14 @@
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\bin\Debug\net8.0\ConsoleAppOlimpiada.exe
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\bin\Debug\net8.0\ConsoleAppOlimpiada.deps.json
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\bin\Debug\net8.0\ConsoleAppOlimpiada.runtimeconfig.json
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\bin\Debug\net8.0\ConsoleAppOlimpiada.dll
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\bin\Debug\net8.0\ConsoleAppOlimpiada.pdb
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\obj\Debug\net8.0\ConsoleAppOlimpiada.GeneratedMSBuildEditorConfig.editorconfig
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\obj\Debug\net8.0\ConsoleAppOlimpiada.AssemblyInfoInputs.cache
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\obj\Debug\net8.0\ConsoleAppOlimpiada.AssemblyInfo.cs
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\obj\Debug\net8.0\ConsoleAppOlimpiada.csproj.CoreCompileInputs.cache
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\obj\Debug\net8.0\ConsoleAppOlimpiada.dll
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\obj\Debug\net8.0\refint\ConsoleAppOlimpiada.dll
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\obj\Debug\net8.0\ConsoleAppOlimpiada.pdb
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\obj\Debug\net8.0\ConsoleAppOlimpiada.genruntimeconfig.cache
+E:\Проекты\College\С#\!Learn\ConsoleAppOlimpiada\ConsoleAppOlimpiada\obj\Debug\net8.0\ref\ConsoleAppOlimpiada.dll
