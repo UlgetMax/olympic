@@ -26,7 +26,7 @@ try
             Console.WriteLine("Нету числа");
             break;
         }
-        if (n >= 1 && n <= 100)
+        if (n >= n && n <= 100)
         {
             if (nums[i] == n) Console.WriteLine($"Индексы значений: {i + 1} \t числа {n}");
         }
