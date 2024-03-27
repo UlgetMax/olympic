@@ -102,29 +102,19 @@ try
     ushort yellow = 0;
     while (i > 0)
     {
-        //В теории можно использовать Switch
-        if (i > 1 && i < 100)
+        if (j >= color.Length)
         {
-            if (j >= color.Length)
-            {
-                j = 0;
-            }
-
-            if (green == color[j]) i -= 1;
-
-            if (color[j] == "красный") red += 1;
-
-            if (color[j] == "желтый") yellow += 1;
-
-
-            j++;
+            j = 0;
         }
-        else
-        {
-            Console.WriteLine("Не соотв. условию");
-            break; // нЕ сработал почему-то
-        }
-       
+
+        if (green == color[j]) i -= 1;
+
+        if (color[j] == "красный") red += 1;
+
+        if (color[j] == "желтый") yellow += 1;
+
+
+        j++;
     }
 
     Console.WriteLine($"Кол-во красных = {red} \nКол-во желтых = {yellow}");
@@ -133,10 +123,6 @@ try
 catch
 {
     Console.WriteLine("ОШибка");
-}
-finally
-{
-    Console.WriteLine("Lesson 4 completed");
 }
 
 
