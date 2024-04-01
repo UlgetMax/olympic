@@ -1,8 +1,36 @@
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-ushort[] nums = new ushort[] { 1, 2, 3, 2, 3, 4, 3, 4, 5, 4, 5, 6, 5, 6, 7 };
 
 Console.Write("Введи число N = ");
+
+ushort i = 0;
+ushort j = 1;
+ushort p = 0;
+
+ushort n = ushort.Parse(Console.ReadLine());
+
+
+for (; ; )
+{
+    if (n <= 1 || n >= 100) break;
+    if (p == 3)
+    {
+        //j = i;
+        i -= 2;
+        p = 0;
+    }
+
+    i += 1;
+    p++;
+    j++;
+    //Console.Write(i + ", \n");
+    if (n == i)
+    {
+        Console.Write($"Число  {n}, индекс {j - 1}\n\n");
+    }
+    if (i == 100) break;
+}
+
 
 try
 {
@@ -63,7 +91,7 @@ Console.Write("введи число: ");
 try
 {
     uint x = uint.Parse(Console.ReadLine());
-    if (x >= 1 && x <= 10000) Console.WriteLine(foo(x + 3));
+    if (x > 1 && x < 10000) Console.WriteLine(foo(x + 3));
     else Console.WriteLine("Не соотв. условию");
 }
 catch
@@ -76,17 +104,17 @@ finally
 }
 
 
-//string s = x.ToString();
+////string s = x.ToString();
 
-//for (int i = 0; i < s.Length; i++)
-//{
-//    Console.WriteLine(s[i]);
+////for (int i = 0; i < s.Length; i++)
+////{
+////    Console.WriteLine(s[i]);
 
-//}
+////}
 
 
 
-//Lesson 4
+////Lesson 4
 
 string[] color = new string[] { "красный", "желтый", "зеленый", "желтый" };
 
@@ -102,6 +130,7 @@ try
     ushort yellow = 0;
     while (i > 0)
     {
+        //if (i <= 1 || i >= 100) break; // Not work
         if (j >= color.Length)
         {
             j = 0;
